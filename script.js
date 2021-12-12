@@ -30,6 +30,6 @@ function table1(val)
 
 for(let val=2;val<=10;val++)
 {
-    setTimeout(table1(val),val*5000);
+     setTimeout(function(){  table1(val); }, val*5000);
 }
  
